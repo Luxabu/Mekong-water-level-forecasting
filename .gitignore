@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files (large, can be regenerated)
+data/*/train.csv
+data/*/test.csv
+data/**/*.csv
+
+# Model files (can be retrained)
+models/**/*.pkl
+models/**/*.joblib
+models/**/*.h5
+models/**/*.pt
+models/**/*.pth
+models/**/*.model
+models/scalers/
+models/regression/
+models/forecasts/
+
+# Results (can be regenerated)
+ensemble_results/
+*.json
+
+# Environment
+.env
+.env.local
+
+# System files
+Thumbs.db
+.DS_Store
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.out

@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5feeadd42635da2a9528540f11ba72ff {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5feeadd42635da2a9528540f11ba72ff" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5feeadd42635da2a9528540f11ba72ff = L.map(
+                "map_5feeadd42635da2a9528540f11ba72ff",
+                {
+                    center: [14.469547346153849, 104.71197753846153],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_571917de3ca1b00afa217fb526e4bff5 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_571917de3ca1b00afa217fb526e4bff5.addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+            var circle_marker_a0736f677f9f10a3e29d2a82c3be04e1 = L.circleMarker(
+                [15.32472, 105.5317],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_a1bc96e066ceea8cd89fad1740629358 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_faeabc36c0af7ed6ee49f3cd8d805a38 = $(`<div id="html_faeabc36c0af7ed6ee49f3cd8d805a38" style="width: 100.0%; height: 100.0%;">     <b>Ban_Mai_Singsamphan</b><br>     ID: 013806<br>     Country: VN<br>     Elevation: 116.0 m<br>     Alarm: 12.0 m<br>     Flood: 13.0 m     </div>`)[0];
+                popup_a1bc96e066ceea8cd89fad1740629358.setContent(html_faeabc36c0af7ed6ee49f3cd8d805a38);
+            
+        
+
+        circle_marker_a0736f677f9f10a3e29d2a82c3be04e1.bindPopup(popup_a1bc96e066ceea8cd89fad1740629358)
+        ;
+
+        
+    
+    
+            var circle_marker_a425fd9e5d5855aa88af325fcf77c15a = L.circleMarker(
+                [18.401388, 103.58111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_9ab3d52e414c479211afb2d07bf73c54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b3d2afc0d4c1b3883c7654cdc64a594 = $(`<div id="html_3b3d2afc0d4c1b3883c7654cdc64a594" style="width: 100.0%; height: 100.0%;">     <b>Bueng_Kan</b><br>     ID: 012702<br>     Country: KH<br>     Elevation: 148.0 m<br>     Alarm: 10.18 m<br>     Flood: 11.18 m     </div>`)[0];
+                popup_9ab3d52e414c479211afb2d07bf73c54.setContent(html_3b3d2afc0d4c1b3883c7654cdc64a594);
+            
+        
+
+        circle_marker_a425fd9e5d5855aa88af325fcf77c15a.bindPopup(popup_9ab3d52e414c479211afb2d07bf73c54)
+        ;
+
+        
+    
+    
+            var circle_marker_22f7a7f5a065fd275956a5c0e764d6ee = L.circleMarker(
+                [17.67546, 104.28622],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_9ba006dd9abbc4f4747d0c409ff34e93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02dc7191e73615d8596155c456a85796 = $(`<div id="html_02dc7191e73615d8596155c456a85796" style="width: 100.0%; height: 100.0%;">     <b>Ban_Had_Paeng</b><br>     ID: 290113<br>     Country: VN<br>     Elevation: 140.0 m<br>     Alarm: 12.5 m<br>     Flood: 13.0 m     </div>`)[0];
+                popup_9ba006dd9abbc4f4747d0c409ff34e93.setContent(html_02dc7191e73615d8596155c456a85796);
+            
+        
+
+        circle_marker_22f7a7f5a065fd275956a5c0e764d6ee.bindPopup(popup_9ba006dd9abbc4f4747d0c409ff34e93)
+        ;
+
+        
+    
+    
+            var circle_marker_fe03111f5d66697d76b4849acd40d4c5 = L.circleMarker(
+                [17.86564, 103.77433],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_b2d12be24db7030dcbaaca181311e1f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f35b891fb68342746b609f36c9d680c = $(`<div id="html_6f35b891fb68342746b609f36c9d680c" style="width: 100.0%; height: 100.0%;">     <b>Ban_Tha_Kok_Daeng</b><br>     ID: 290102<br>     Country: VN<br>     Elevation: 143.0 m<br>     Alarm: 12.0 m<br>     Flood: 13.0 m     </div>`)[0];
+                popup_b2d12be24db7030dcbaaca181311e1f5.setContent(html_6f35b891fb68342746b609f36c9d680c);
+            
+        
+
+        circle_marker_fe03111f5d66697d76b4849acd40d4c5.bindPopup(popup_b2d12be24db7030dcbaaca181311e1f5)
+        ;
+
+        
+    
+    
+            var circle_marker_a087d73d9e861f53ded63370fa3ddb17 = L.circleMarker(
+                [13.5325, 105.95019],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_e2c0427020fc5889a51eb1e70811a2c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73efc328b9046acf26a318666378340a = $(`<div id="html_73efc328b9046acf26a318666378340a" style="width: 100.0%; height: 100.0%;">     <b>Stung_Treng</b><br>     ID: 014501<br>     Country: KH<br>     Elevation: 43.0 m<br>     Alarm: 10.7 m<br>     Flood: 12.0 m     </div>`)[0];
+                popup_e2c0427020fc5889a51eb1e70811a2c6.setContent(html_73efc328b9046acf26a318666378340a);
+            
+        
+
+        circle_marker_a087d73d9e861f53ded63370fa3ddb17.bindPopup(popup_e2c0427020fc5889a51eb1e70811a2c6)
+        ;
+
+        
+    
+    
+            var circle_marker_606244cf8ccef4f6094bc222dfd7db4b = L.circleMarker(
+                [12.48141, 106.01762],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_e39b9dfacadae8711785ac15eb587220 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2117d6c4a7c3991a42a1a46d1f44e0ca = $(`<div id="html_2117d6c4a7c3991a42a1a46d1f44e0ca" style="width: 100.0%; height: 100.0%;">     <b>Kratie</b><br>     ID: 014901<br>     Country: KH<br>     Elevation: 15.0 m<br>     Alarm: 22.0 m<br>     Flood: 23.0 m     </div>`)[0];
+                popup_e39b9dfacadae8711785ac15eb587220.setContent(html_2117d6c4a7c3991a42a1a46d1f44e0ca);
+            
+        
+
+        circle_marker_606244cf8ccef4f6094bc222dfd7db4b.bindPopup(popup_e39b9dfacadae8711785ac15eb587220)
+        ;
+
+        
+    
+    
+            var circle_marker_37070cfd42238c8cf877f7560be608b7 = L.circleMarker(
+                [11.994647, 105.46873],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_f6cb3ff92040eac1b0904de4e851ea47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c577a120a17f02c3cb390af304c02b7 = $(`<div id="html_8c577a120a17f02c3cb390af304c02b7" style="width: 100.0%; height: 100.0%;">     <b>Kompong_Cham</b><br>     ID: 019802<br>     Country: KH<br>     Elevation: 17.0 m<br>     Alarm: 15.2 m<br>     Flood: 16.2 m     </div>`)[0];
+                popup_f6cb3ff92040eac1b0904de4e851ea47.setContent(html_8c577a120a17f02c3cb390af304c02b7);
+            
+        
+
+        circle_marker_37070cfd42238c8cf877f7560be608b7.bindPopup(popup_f6cb3ff92040eac1b0904de4e851ea47)
+        ;
+
+        
+    
+    
+            var circle_marker_61045580713634c56037bda2b18df81f = L.circleMarker(
+                [11.56299, 104.93529],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_80edf1510f294e11491f8c4b00bb61d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b2f052515fd20ae188b8d8703f2c1b6 = $(`<div id="html_2b2f052515fd20ae188b8d8703f2c1b6" style="width: 100.0%; height: 100.0%;">     <b>Chaktomuk</b><br>     ID: 033401<br>     Country: KH<br>     Elevation: 5.0 m<br>     Alarm: 10.5 m<br>     Flood: 12.0 m     </div>`)[0];
+                popup_80edf1510f294e11491f8c4b00bb61d3.setContent(html_2b2f052515fd20ae188b8d8703f2c1b6);
+            
+        
+
+        circle_marker_61045580713634c56037bda2b18df81f.bindPopup(popup_80edf1510f294e11491f8c4b00bb61d3)
+        ;
+
+        
+    
+    
+            var circle_marker_3d8907cb98be9986cc725d3319bd259c = L.circleMarker(
+                [11.263037, 105.28012],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_00cb6b6b795c6bd58545e152c22889a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca74c5ee5d0b1cf7e85d572dafa5eb21 = $(`<div id="html_ca74c5ee5d0b1cf7e85d572dafa5eb21" style="width: 100.0%; height: 100.0%;">     <b>Neak_Luong</b><br>     ID: 019806<br>     Country: KH<br>     Elevation: 1.0 m<br>     Alarm: 7.5 m<br>     Flood: 8.0 m     </div>`)[0];
+                popup_00cb6b6b795c6bd58545e152c22889a3.setContent(html_ca74c5ee5d0b1cf7e85d572dafa5eb21);
+            
+        
+
+        circle_marker_3d8907cb98be9986cc725d3319bd259c.bindPopup(popup_00cb6b6b795c6bd58545e152c22889a3)
+        ;
+
+        
+    
+    
+            var circle_marker_98e34db28c0417870d2a6738606f6be3 = L.circleMarker(
+                [14.11514, 106.38795],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_415d1a4605814cc958c66cf4925f84cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_915f1ab8f5e59316e845797f62ea2137 = $(`<div id="html_915f1ab8f5e59316e845797f62ea2137" style="width: 100.0%; height: 100.0%;">     <b>Siempang</b><br>     ID: 430102<br>     Country: KH<br>     Elevation: 71.0 m<br>     Alarm: 11.5 m<br>     Flood: 12.5 m     </div>`)[0];
+                popup_415d1a4605814cc958c66cf4925f84cf.setContent(html_915f1ab8f5e59316e845797f62ea2137);
+            
+        
+
+        circle_marker_98e34db28c0417870d2a6738606f6be3.bindPopup(popup_415d1a4605814cc958c66cf4925f84cf)
+        ;
+
+        
+    
+    
+            var circle_marker_006b595deab753df47d6a04e5637c9a5 = L.circleMarker(
+                [11.81117, 104.80678],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_875df603a028c4f33d34ffc5a4c11704 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_020688c8729e3c783b647a838ed2aec5 = $(`<div id="html_020688c8729e3c783b647a838ed2aec5" style="width: 100.0%; height: 100.0%;">     <b>Prek_Kdam</b><br>     ID: 020102<br>     Country: KH<br>     Elevation: 2.0 m<br>     Alarm: 9.5 m<br>     Flood: 10.0 m     </div>`)[0];
+                popup_875df603a028c4f33d34ffc5a4c11704.setContent(html_020688c8729e3c783b647a838ed2aec5);
+            
+        
+
+        circle_marker_006b595deab753df47d6a04e5637c9a5.bindPopup(popup_875df603a028c4f33d34ffc5a4c11704)
+        ;
+
+        
+    
+    
+            var circle_marker_a972711164019aeab455d4305816e100 = L.circleMarker(
+                [14.948, 105.889],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_0aeb21be6de68f45a0b08bc5aafd5eb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_390d445af002c5c0b7647468928fd5b6 = $(`<div id="html_390d445af002c5c0b7647468928fd5b6" style="width: 100.0%; height: 100.0%;">     <b>Pha_Phin</b><br>     ID: 013903<br>     Country: KH<br>     Elevation: 101.0 m<br>     Alarm: 11.0 m<br>     Flood: 12.0 m     </div>`)[0];
+                popup_0aeb21be6de68f45a0b08bc5aafd5eb7.setContent(html_390d445af002c5c0b7647468928fd5b6);
+            
+        
+
+        circle_marker_a972711164019aeab455d4305816e100.bindPopup(popup_0aeb21be6de68f45a0b08bc5aafd5eb7)
+        ;
+
+        
+    
+    
+            var circle_marker_1594ef2a357b05aa8e83fbec2bd5a55f = L.circleMarker(
+                [11.242035, 105.036156],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_e9af087851543290e07cef9422f91218 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71fb0cae6839c4fc492b6faace96bef7 = $(`<div id="html_71fb0cae6839c4fc492b6faace96bef7" style="width: 100.0%; height: 100.0%;">     <b>Koh_Khel</b><br>     ID: 033402<br>     Country: KH<br>     Elevation: 1.0 m<br>     Alarm: 7.9 m<br>     Flood: 8.4 m     </div>`)[0];
+                popup_e9af087851543290e07cef9422f91218.setContent(html_71fb0cae6839c4fc492b6faace96bef7);
+            
+        
+
+        circle_marker_1594ef2a357b05aa8e83fbec2bd5a55f.bindPopup(popup_e9af087851543290e07cef9422f91218)
+        ;
+
+        
+    
+    
+            var circle_marker_6e04880e1e2a4a09238bee64981cd8c7 = L.circleMarker(
+                [13.051272, 102.49884],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_1a0a375ec7d496e0d128c8447912b5a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17990200cde1c03b78052c0565d4c6cd = $(`<div id="html_17990200cde1c03b78052c0565d4c6cd" style="width: 100.0%; height: 100.0%;">     <b>Kamrieng</b><br>     ID: 550106<br>     Country: KH<br>     Elevation: 77.0 m<br>     Alarm: 5.0 m<br>     Flood: 6.0 m     </div>`)[0];
+                popup_1a0a375ec7d496e0d128c8447912b5a2.setContent(html_17990200cde1c03b78052c0565d4c6cd);
+            
+        
+
+        circle_marker_6e04880e1e2a4a09238bee64981cd8c7.bindPopup(popup_1a0a375ec7d496e0d128c8447912b5a2)
+        ;
+
+        
+    
+    
+            var circle_marker_c0efa45d576aa039ad92fcd3eb3e848e = L.circleMarker(
+                [12.995833, 102.5375],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_059960f031f134c368f66a1f3119efdc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc563f9e74c6d10ce705143ec4bf96bb = $(`<div id="html_dc563f9e74c6d10ce705143ec4bf96bb" style="width: 100.0%; height: 100.0%;">     <b>Phnom_Koy</b><br>     ID: 550107<br>     Country: KH<br>     Elevation: 80.0 m<br>     Alarm: 5.0 m<br>     Flood: 6.0 m     </div>`)[0];
+                popup_059960f031f134c368f66a1f3119efdc.setContent(html_dc563f9e74c6d10ce705143ec4bf96bb);
+            
+        
+
+        circle_marker_c0efa45d576aa039ad92fcd3eb3e848e.bindPopup(popup_059960f031f134c368f66a1f3119efdc)
+        ;
+
+        
+    
+    
+            var circle_marker_67313a547c547fe6e0b5dbeb4e72bd95 = L.circleMarker(
+                [10.80062, 105.24802],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_1f62d73cf1625157080dab2a1fb9796e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac77b70de8216adbc048e62a117eb0e3 = $(`<div id="html_ac77b70de8216adbc048e62a117eb0e3" style="width: 100.0%; height: 100.0%;">     <b>Tan_Chau</b><br>     ID: 019803<br>     Country: VN<br>     Elevation: 0.0 m<br>     Alarm: 3.5 m<br>     Flood: 4.5 m     </div>`)[0];
+                popup_1f62d73cf1625157080dab2a1fb9796e.setContent(html_ac77b70de8216adbc048e62a117eb0e3);
+            
+        
+
+        circle_marker_67313a547c547fe6e0b5dbeb4e72bd95.bindPopup(popup_1f62d73cf1625157080dab2a1fb9796e)
+        ;
+
+        
+    
+    
+            var circle_marker_0d2cba372bfc69f2c8c5affa9161c8cf = L.circleMarker(
+                [10.27532, 105.92632],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_c91213aa0fe8b5a0ef5d34396295ed93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9fef03fb621b3574947acd3df701c4e = $(`<div id="html_b9fef03fb621b3574947acd3df701c4e" style="width: 100.0%; height: 100.0%;">     <b>My_Thuan</b><br>     ID: 019804<br>     Country: VN<br>     Elevation: 0.0 m<br>     Alarm: 1.6 m<br>     Flood: 1.8 m     </div>`)[0];
+                popup_c91213aa0fe8b5a0ef5d34396295ed93.setContent(html_b9fef03fb621b3574947acd3df701c4e);
+            
+        
+
+        circle_marker_0d2cba372bfc69f2c8c5affa9161c8cf.bindPopup(popup_c91213aa0fe8b5a0ef5d34396295ed93)
+        ;
+
+        
+    
+    
+            var circle_marker_4dd7a71260487b1130560a80686fe571 = L.circleMarker(
+                [10.70528, 105.13351],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_0ff05fcbfc9ddc15ecf67973f8dd9776 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d549baa8de9e5ce35268a7b8580970db = $(`<div id="html_d549baa8de9e5ce35268a7b8580970db" style="width: 100.0%; height: 100.0%;">     <b>Chau_Doc</b><br>     ID: 039801<br>     Country: VN<br>     Elevation: 0.0 m<br>     Alarm: 3.0 m<br>     Flood: 4.0 m     </div>`)[0];
+                popup_0ff05fcbfc9ddc15ecf67973f8dd9776.setContent(html_d549baa8de9e5ce35268a7b8580970db);
+            
+        
+
+        circle_marker_4dd7a71260487b1130560a80686fe571.bindPopup(popup_0ff05fcbfc9ddc15ecf67973f8dd9776)
+        ;
+
+        
+    
+    
+            var circle_marker_60ef866036b79ed93d10a88201a59534 = L.circleMarker(
+                [10.052889, 105.78714],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_eb8252b595ec0e063d4f8d628b5d88eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54b88ffc66eaba81c8db991a5c48f117 = $(`<div id="html_54b88ffc66eaba81c8db991a5c48f117" style="width: 100.0%; height: 100.0%;">     <b>Can_Tho</b><br>     ID: 039803<br>     Country: VN<br>     Elevation: 0.0 m<br>     Alarm: 1.7 m<br>     Flood: 1.9 m     </div>`)[0];
+                popup_eb8252b595ec0e063d4f8d628b5d88eb.setContent(html_54b88ffc66eaba81c8db991a5c48f117);
+            
+        
+
+        circle_marker_60ef866036b79ed93d10a88201a59534.bindPopup(popup_eb8252b595ec0e063d4f8d628b5d88eb)
+        ;
+
+        
+    
+    
+            var circle_marker_56adb68444de008047b8cfec6c164743 = L.circleMarker(
+                [20.5721, 102.61702],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_375540851e00380faa9105bb96e3a659 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42ca682218d31ec4487524c1321d39bb = $(`<div id="html_42ca682218d31ec4487524c1321d39bb" style="width: 100.0%; height: 100.0%;">     <b>Muong_Ngoy</b><br>     ID: 100102<br>     Country: VN<br>     Elevation: 329.0 m<br>     Alarm: 16.5 m<br>     Flood: 17.5 m     </div>`)[0];
+                popup_375540851e00380faa9105bb96e3a659.setContent(html_42ca682218d31ec4487524c1321d39bb);
+            
+        
+
+        circle_marker_56adb68444de008047b8cfec6c164743.bindPopup(popup_375540851e00380faa9105bb96e3a659)
+        ;
+
+        
+    
+    
+            var circle_marker_46d46d1b3a7a08697d3e2c47a042ce39 = L.circleMarker(
+                [19.78606, 102.18314],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_98f2decb542857e8a8dc0c58a8ecb272 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16b9070aa6198e55cc17d9325679b68f = $(`<div id="html_16b9070aa6198e55cc17d9325679b68f" style="width: 100.0%; height: 100.0%;">     <b>Ban_Mixai</b><br>     ID: 120101<br>     Country: VN<br>     Elevation: 346.0 m<br>     Alarm: 9.0 m<br>     Flood: 9.5 m     </div>`)[0];
+                popup_98f2decb542857e8a8dc0c58a8ecb272.setContent(html_16b9070aa6198e55cc17d9325679b68f);
+            
+        
+
+        circle_marker_46d46d1b3a7a08697d3e2c47a042ce39.bindPopup(popup_98f2decb542857e8a8dc0c58a8ecb272)
+        ;
+
+        
+    
+    
+            var circle_marker_4ce8c127688494d5ee4f6fdc7273c1e8 = L.circleMarker(
+                [18.56193, 103.72594],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_265cd4c1dd8e63d2400272f9e91d53c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebb5eca27f9ac5b94b561ac16ce969c8 = $(`<div id="html_ebb5eca27f9ac5b94b561ac16ce969c8" style="width: 100.0%; height: 100.0%;">     <b>Muang_Kao</b><br>     ID: 260101<br>     Country: KH<br>     Elevation: 167.0 m<br>     Alarm: 7.0 m<br>     Flood: 8.0 m     </div>`)[0];
+                popup_265cd4c1dd8e63d2400272f9e91d53c9.setContent(html_ebb5eca27f9ac5b94b561ac16ce969c8);
+            
+        
+
+        circle_marker_4ce8c127688494d5ee4f6fdc7273c1e8.bindPopup(popup_265cd4c1dd8e63d2400272f9e91d53c9)
+        ;
+
+        
+    
+    
+            var circle_marker_55a88bc3a0f6952e515047ab971e32e4 = L.circleMarker(
+                [18.30457, 105.07359],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_ef5792ce0611e6455b2c85e8a851b9c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d2bca9845df5f9efbc4ccf61183ea21 = $(`<div id="html_8d2bca9845df5f9efbc4ccf61183ea21" style="width: 100.0%; height: 100.0%;">     <b>Ban_Nape</b><br>     ID: 270502<br>     Country: VN<br>     Elevation: 523.0 m<br>     Alarm: 4.5 m<br>     Flood: 5.5 m     </div>`)[0];
+                popup_ef5792ce0611e6455b2c85e8a851b9c6.setContent(html_8d2bca9845df5f9efbc4ccf61183ea21);
+            
+        
+
+        circle_marker_55a88bc3a0f6952e515047ab971e32e4.bindPopup(popup_ef5792ce0611e6455b2c85e8a851b9c6)
+        ;
+
+        
+    
+    
+            var circle_marker_6f22515c5aa0c9ec7417aee2378d575b = L.circleMarker(
+                [16.18727, 105.31287],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_a0d13ae312ea421a1cb75f9536e54720 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_808391e3ee57a3c959c3fd60abeaf813 = $(`<div id="html_808391e3ee57a3c959c3fd60abeaf813" style="width: 100.0%; height: 100.0%;">     <b>Ban_Kengdone</b><br>     ID: 350101<br>     Country: VN<br>     Elevation: 123.0 m<br>     Alarm: 15.0 m<br>     Flood: 16.5 m     </div>`)[0];
+                popup_a0d13ae312ea421a1cb75f9536e54720.setContent(html_808391e3ee57a3c959c3fd60abeaf813);
+            
+        
+
+        circle_marker_6f22515c5aa0c9ec7417aee2378d575b.bindPopup(popup_a0d13ae312ea421a1cb75f9536e54720)
+        ;
+
+        
+    
+    
+            var circle_marker_3eb1d0803fe2abf0177cffdceef5d15e = L.circleMarker(
+                [14.8192, 106.80566],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_feb234f9f924d2bf4c1a0a8519ffbb05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96a313f990761e0d67c268bed8dad39b = $(`<div id="html_96a313f990761e0d67c268bed8dad39b" style="width: 100.0%; height: 100.0%;">     <b>Ban_Veunkhen</b><br>     ID: 430106<br>     Country: VN<br>     Elevation: 99.0 m<br>     Alarm: 15.0 m<br>     Flood: 16.0 m     </div>`)[0];
+                popup_feb234f9f924d2bf4c1a0a8519ffbb05.setContent(html_96a313f990761e0d67c268bed8dad39b);
+            
+        
+
+        circle_marker_3eb1d0803fe2abf0177cffdceef5d15e.bindPopup(popup_feb234f9f924d2bf4c1a0a8519ffbb05)
+        ;
+
+        
+    
+    
+            var circle_marker_cbeaeb52f12baf0f500beef8420134e5 = L.circleMarker(
+                [17.87775, 102.71667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_5feeadd42635da2a9528540f11ba72ff);
+        
+    
+        var popup_094818ffb71e64a2311d58f03564a70d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08350941f6f3ccc8674ba43ac4f85f6c = $(`<div id="html_08350941f6f3ccc8674ba43ac4f85f6c" style="width: 100.0%; height: 100.0%;">     <b>Nong_Khai_2</b><br>     ID: 012002<br>     Country: VN<br>     Elevation: 157.0 m<br>     Alarm: 11.4 m<br>     Flood: 12.2 m     </div>`)[0];
+                popup_094818ffb71e64a2311d58f03564a70d.setContent(html_08350941f6f3ccc8674ba43ac4f85f6c);
+            
+        
+
+        circle_marker_cbeaeb52f12baf0f500beef8420134e5.bindPopup(popup_094818ffb71e64a2311d58f03564a70d)
+        ;
+
+        
+    
+</script>
+</html>
