@@ -1,0 +1,11 @@
+{
+  "Station": "Ban_Nape",
+  "Best_Model": "Linear_Regression",
+  "Test_RMSE": 0.16230413222121434,
+  "Test_R2": 0.9554893524946533,
+  "Num_Features": 25,
+  "Model_Path": "models\\regression\\best_regressor_Ban_Nape.pkl",
+  "Forecast_Path": "models\\forecasts\\Ban_Nape_forecast.csv",
+  "Alarm_Stage": 4.5,
+  "Flood_Stage": 5.5
+}

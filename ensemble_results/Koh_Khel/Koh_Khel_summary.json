@@ -1,0 +1,11 @@
+{
+  "Station": "Koh_Khel",
+  "Best_Model": "Extra_Trees",
+  "Test_RMSE": 0.2929203839015347,
+  "Test_R2": 0.9353460495705971,
+  "Num_Features": 27,
+  "Model_Path": "models\\regression\\best_regressor_Koh_Khel.pkl",
+  "Forecast_Path": "models\\forecasts\\Koh_Khel_forecast.csv",
+  "Alarm_Stage": 7.9,
+  "Flood_Stage": 8.4
+}

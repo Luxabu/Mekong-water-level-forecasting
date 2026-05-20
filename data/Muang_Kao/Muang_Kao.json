@@ -1,0 +1,13 @@
+{
+  "station_id": "260101",
+  "station_name": "Muang_Kao",
+  "country": "KH",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 18.56193,
+  "longitude": 103.72594,
+  "elevation": 167.0,
+  "dist_to_ocean_km": 1049.77,
+  "floodStage": 8.0,
+  "alarmStage": 7.0
+}

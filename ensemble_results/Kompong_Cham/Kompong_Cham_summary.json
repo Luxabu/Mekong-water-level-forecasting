@@ -1,0 +1,11 @@
+{
+  "Station": "Kompong_Cham",
+  "Best_Model": "Extra_Trees",
+  "Test_RMSE": 0.34137540108576336,
+  "Test_R2": 0.9679799448334804,
+  "Num_Features": 25,
+  "Model_Path": "models\\regression\\best_regressor_Kompong_Cham.pkl",
+  "Forecast_Path": "models\\forecasts\\Kompong_Cham_forecast.csv",
+  "Alarm_Stage": 15.2,
+  "Flood_Stage": 16.2
+}

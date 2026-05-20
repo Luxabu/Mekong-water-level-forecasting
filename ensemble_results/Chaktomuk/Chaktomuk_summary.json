@@ -1,0 +1,11 @@
+{
+  "Station": "Chaktomuk",
+  "Best_Model": "Extra_Trees",
+  "Test_RMSE": 0.2379220764668826,
+  "Test_R2": 0.9710503023688078,
+  "Num_Features": 25,
+  "Model_Path": "models\\regression\\best_regressor_Chaktomuk.pkl",
+  "Forecast_Path": "models\\forecasts\\Chaktomuk_forecast.csv",
+  "Alarm_Stage": 10.5,
+  "Flood_Stage": 12.0
+}

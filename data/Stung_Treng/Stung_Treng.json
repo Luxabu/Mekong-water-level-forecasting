@@ -1,0 +1,13 @@
+{
+  "station_id": "014501",
+  "station_name": "Stung_Treng",
+  "country": "KH",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 13.5325,
+  "longitude": 105.95019,
+  "elevation": 43.0,
+  "dist_to_ocean_km": 453.82,
+  "floodStage": 12.0,
+  "alarmStage": 10.7
+}

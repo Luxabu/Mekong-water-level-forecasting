@@ -1,0 +1,11 @@
+model,val_rmse,val_r2,val_mae,test_rmse,test_r2,test_mae
+Linear_Regression,0.0,1.0,0.0,0.0,1.0,0.0
+Ridge_Regression,0.0,1.0,0.0,0.0,1.0,0.0
+Lasso_Regression,0.0,1.0,0.0,0.0,1.0,0.0
+ElasticNet,0.0,1.0,0.0,0.0,1.0,0.0
+Random_Forest,0.0,1.0,0.0,0.0,1.0,0.0
+Extra_Trees,0.0,1.0,0.0,0.0,1.0,0.0
+Gradient_Boosting,0.0,1.0,0.0,0.0,1.0,0.0
+XGBoost,0.0,1.0,0.0,0.0,1.0,0.0
+LightGBM,0.0,1.0,0.0,0.0,1.0,0.0
+SVR,0.0,1.0,0.0,0.0,1.0,0.0

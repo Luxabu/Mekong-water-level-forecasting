@@ -1,0 +1,13 @@
+{
+  "station_id": "039803",
+  "station_name": "Can_Tho",
+  "country": "VN",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 10.052889,
+  "longitude": 105.78714,
+  "elevation": 0.0,
+  "dist_to_ocean_km": 89.47,
+  "floodStage": 1.9,
+  "alarmStage": 1.7
+}

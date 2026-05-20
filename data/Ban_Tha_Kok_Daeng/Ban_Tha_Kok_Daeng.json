@@ -1,0 +1,13 @@
+{
+  "station_id": "290102",
+  "station_name": "Ban_Tha_Kok_Daeng",
+  "country": "VN",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 17.86564,
+  "longitude": 103.77433,
+  "elevation": 143.0,
+  "dist_to_ocean_km": 974.06,
+  "floodStage": 13.0,
+  "alarmStage": 12.0
+}

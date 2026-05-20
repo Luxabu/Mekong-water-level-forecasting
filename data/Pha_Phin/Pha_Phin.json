@@ -1,0 +1,13 @@
+{
+  "station_id": "013903",
+  "station_name": "Pha_Phin",
+  "country": "KH",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 14.948,
+  "longitude": 105.889,
+  "elevation": 101.0,
+  "dist_to_ocean_km": 611.18,
+  "floodStage": 12.0,
+  "alarmStage": 11.0
+}

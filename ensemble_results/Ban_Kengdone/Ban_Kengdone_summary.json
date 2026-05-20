@@ -1,0 +1,11 @@
+{
+  "Station": "Ban_Kengdone",
+  "Best_Model": "Random_Forest",
+  "Test_RMSE": 0.31166505154936125,
+  "Test_R2": 0.9705750138994185,
+  "Num_Features": 26,
+  "Model_Path": "models\\regression\\best_regressor_Ban_Kengdone.pkl",
+  "Forecast_Path": "models\\forecasts\\Ban_Kengdone_forecast.csv",
+  "Alarm_Stage": 15.0,
+  "Flood_Stage": 16.5
+}

@@ -1,0 +1,11 @@
+{
+  "Station": "Stung_Treng",
+  "Best_Model": "Gradient_Boosting",
+  "Test_RMSE": 0.27002064136265974,
+  "Test_R2": 0.9582682704746375,
+  "Num_Features": 24,
+  "Model_Path": "models\\regression\\best_regressor_Stung_Treng.pkl",
+  "Forecast_Path": "models\\forecasts\\Stung_Treng_forecast.csv",
+  "Alarm_Stage": 10.7,
+  "Flood_Stage": 12.0
+}

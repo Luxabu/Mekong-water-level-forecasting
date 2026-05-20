@@ -1,0 +1,13 @@
+{
+  "station_id": "550106",
+  "station_name": "Kamrieng",
+  "country": "KH",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 13.051272,
+  "longitude": 102.49884,
+  "elevation": 77.0,
+  "dist_to_ocean_km": 578.71,
+  "floodStage": 6.0,
+  "alarmStage": 5.0
+}

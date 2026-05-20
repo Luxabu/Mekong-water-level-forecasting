@@ -1,0 +1,11 @@
+{
+  "Station": "Muong_Ngoy",
+  "Best_Model": "Extra_Trees",
+  "Test_RMSE": 0.31380361605069357,
+  "Test_R2": 0.9557359559308909,
+  "Num_Features": 24,
+  "Model_Path": "models\\regression\\best_regressor_Muong_Ngoy.pkl",
+  "Forecast_Path": "models\\forecasts\\Muong_Ngoy_forecast.csv",
+  "Alarm_Stage": 16.5,
+  "Flood_Stage": 17.5
+}

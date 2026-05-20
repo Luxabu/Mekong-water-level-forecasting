@@ -1,0 +1,13 @@
+{
+  "station_id": "550107",
+  "station_name": "Phnom_Koy",
+  "country": "KH",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 12.995833,
+  "longitude": 102.5375,
+  "elevation": 80.0,
+  "dist_to_ocean_km": 571.44,
+  "floodStage": 6.0,
+  "alarmStage": 5.0
+}

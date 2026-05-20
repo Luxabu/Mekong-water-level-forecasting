@@ -1,0 +1,11 @@
+{
+  "Station": "Pha_Phin",
+  "Best_Model": "Extra_Trees",
+  "Test_RMSE": 0.2861799811957079,
+  "Test_R2": 0.9590040841889053,
+  "Num_Features": 24,
+  "Model_Path": "models\\regression\\best_regressor_Pha_Phin.pkl",
+  "Forecast_Path": "models\\forecasts\\Pha_Phin_forecast.csv",
+  "Alarm_Stage": 11.0,
+  "Flood_Stage": 12.0
+}

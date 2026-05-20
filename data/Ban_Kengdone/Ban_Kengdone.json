@@ -1,0 +1,13 @@
+{
+  "station_id": "350101",
+  "station_name": "Ban_Kengdone",
+  "country": "VN",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 16.18727,
+  "longitude": 105.31287,
+  "elevation": 123.0,
+  "dist_to_ocean_km": 755.33,
+  "floodStage": 16.5,
+  "alarmStage": 15.0
+}

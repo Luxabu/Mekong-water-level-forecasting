@@ -1,0 +1,11 @@
+{
+  "Station": "Ban_Mai_Singsamphan",
+  "Best_Model": "Extra_Trees",
+  "Test_RMSE": 0.2751590996054923,
+  "Test_R2": 0.9641874904251297,
+  "Num_Features": 26,
+  "Model_Path": "models\\regression\\best_regressor_Ban_Mai_Singsamphan.pkl",
+  "Forecast_Path": "models\\forecasts\\Ban_Mai_Singsamphan_forecast.csv",
+  "Alarm_Stage": 12.0,
+  "Flood_Stage": 13.0
+}

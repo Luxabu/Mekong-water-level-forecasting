@@ -1,0 +1,13 @@
+{
+  "station_id": "100102",
+  "station_name": "Muong_Ngoy",
+  "country": "VN",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 20.5721,
+  "longitude": 102.61702,
+  "elevation": 329.0,
+  "dist_to_ocean_km": 1297.73,
+  "floodStage": 17.5,
+  "alarmStage": 16.5
+}

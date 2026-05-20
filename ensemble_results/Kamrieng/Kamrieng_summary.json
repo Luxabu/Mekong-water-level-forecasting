@@ -1,0 +1,11 @@
+{
+  "Station": "Kamrieng",
+  "Best_Model": "Linear_Regression",
+  "Test_RMSE": 0.15601150682565085,
+  "Test_R2": 0.9568942121254028,
+  "Num_Features": 27,
+  "Model_Path": "models\\regression\\best_regressor_Kamrieng.pkl",
+  "Forecast_Path": "models\\forecasts\\Kamrieng_forecast.csv",
+  "Alarm_Stage": 5.0,
+  "Flood_Stage": 6.0
+}

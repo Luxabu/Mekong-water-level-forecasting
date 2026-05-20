@@ -1,0 +1,13 @@
+{
+  "station_id": "290113",
+  "station_name": "Ban_Had_Paeng",
+  "country": "VN",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 17.67546,
+  "longitude": 104.28622,
+  "elevation": 140.0,
+  "dist_to_ocean_km": 939.23,
+  "floodStage": 13.0,
+  "alarmStage": 12.5
+}

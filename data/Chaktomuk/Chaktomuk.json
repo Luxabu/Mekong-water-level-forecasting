@@ -1,0 +1,13 @@
+{
+  "station_id": "033401",
+  "station_name": "Chaktomuk",
+  "country": "KH",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 11.56299,
+  "longitude": 104.93529,
+  "elevation": 5.0,
+  "dist_to_ocean_km": 279.43,
+  "floodStage": 12.0,
+  "alarmStage": 10.5
+}

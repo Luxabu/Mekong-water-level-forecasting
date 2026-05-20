@@ -1,0 +1,13 @@
+{
+  "station_id": "120101",
+  "station_name": "Ban_Mixai",
+  "country": "VN",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 19.78606,
+  "longitude": 102.18314,
+  "elevation": 346.0,
+  "dist_to_ocean_km": 1231.32,
+  "floodStage": 9.5,
+  "alarmStage": 9.0
+}

@@ -1,0 +1,13 @@
+{
+  "station_id": "430102",
+  "station_name": "Siempang",
+  "country": "KH",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 14.11514,
+  "longitude": 106.38795,
+  "elevation": 71.0,
+  "dist_to_ocean_km": 516.53,
+  "floodStage": 12.5,
+  "alarmStage": 11.5
+}

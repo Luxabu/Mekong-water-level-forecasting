@@ -1,0 +1,13 @@
+{
+  "station_id": "019804",
+  "station_name": "My_Thuan",
+  "country": "VN",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 10.27532,
+  "longitude": 105.92632,
+  "elevation": 0.0,
+  "dist_to_ocean_km": 100.86,
+  "floodStage": 1.8,
+  "alarmStage": 1.6
+}

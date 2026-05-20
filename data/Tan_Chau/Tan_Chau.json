@@ -1,0 +1,13 @@
+{
+  "station_id": "019803",
+  "station_name": "Tan_Chau",
+  "country": "VN",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 10.80062,
+  "longitude": 105.24802,
+  "elevation": 0.0,
+  "dist_to_ocean_km": 190.89,
+  "floodStage": 4.5,
+  "alarmStage": 3.5
+}

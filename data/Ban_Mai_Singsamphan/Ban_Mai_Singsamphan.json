@@ -1,0 +1,13 @@
+{
+  "station_id": "013806",
+  "station_name": "Ban_Mai_Singsamphan",
+  "country": "VN",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 15.32472,
+  "longitude": 105.5317,
+  "elevation": 116.0,
+  "dist_to_ocean_km": 657.05,
+  "floodStage": 13.0,
+  "alarmStage": 12.0
+}

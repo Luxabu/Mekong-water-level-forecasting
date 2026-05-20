@@ -1,0 +1,11 @@
+{
+  "Station": "Neak_Luong",
+  "Best_Model": "Random_Forest",
+  "Test_RMSE": 0.28806969756685,
+  "Test_R2": 0.9400510994105709,
+  "Num_Features": 23,
+  "Model_Path": "models\\regression\\best_regressor_Neak_Luong.pkl",
+  "Forecast_Path": "models\\forecasts\\Neak_Luong_forecast.csv",
+  "Alarm_Stage": 7.5,
+  "Flood_Stage": 8.0
+}

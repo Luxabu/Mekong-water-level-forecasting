@@ -1,0 +1,11 @@
+{
+  "Station": "Tan_Chau",
+  "Best_Model": "Linear_Regression",
+  "Test_RMSE": 0.24835808799252243,
+  "Test_R2": 0.9186911216064332,
+  "Num_Features": 25,
+  "Model_Path": "models\\regression\\best_regressor_Tan_Chau.pkl",
+  "Forecast_Path": "models\\forecasts\\Tan_Chau_forecast.csv",
+  "Alarm_Stage": 3.5,
+  "Flood_Stage": 4.5
+}

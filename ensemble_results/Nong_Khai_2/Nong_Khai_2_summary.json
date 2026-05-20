@@ -1,0 +1,11 @@
+{
+  "Station": "Nong_Khai_2",
+  "Best_Model": "Gradient_Boosting",
+  "Test_RMSE": 0.2743007984834912,
+  "Test_R2": 0.9612051083382798,
+  "Num_Features": 26,
+  "Model_Path": "models\\regression\\best_regressor_Nong_Khai_2.pkl",
+  "Forecast_Path": "models\\forecasts\\Nong_Khai_2_forecast.csv",
+  "Alarm_Stage": 11.4,
+  "Flood_Stage": 12.2
+}

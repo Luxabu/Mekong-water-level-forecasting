@@ -1,0 +1,11 @@
+{
+  "Station": "Ban_Had_Paeng",
+  "Best_Model": "Extra_Trees",
+  "Test_RMSE": 0.24047887521413072,
+  "Test_R2": 0.9691505228591571,
+  "Num_Features": 25,
+  "Model_Path": "models\\regression\\best_regressor_Ban_Had_Paeng.pkl",
+  "Forecast_Path": "models\\forecasts\\Ban_Had_Paeng_forecast.csv",
+  "Alarm_Stage": 12.5,
+  "Flood_Stage": 13.0
+}

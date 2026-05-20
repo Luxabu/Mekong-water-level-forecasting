@@ -1,0 +1,13 @@
+{
+  "station_id": "270502",
+  "station_name": "Ban_Nape",
+  "country": "VN",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 18.30457,
+  "longitude": 105.07359,
+  "elevation": 523.0,
+  "dist_to_ocean_km": 991.95,
+  "floodStage": 5.5,
+  "alarmStage": 4.5
+}

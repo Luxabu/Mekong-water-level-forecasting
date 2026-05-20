@@ -1,0 +1,13 @@
+{
+  "station_id": "033402",
+  "station_name": "Koh_Khel",
+  "country": "KH",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 11.242035,
+  "longitude": 105.036156,
+  "elevation": 1.0,
+  "dist_to_ocean_km": 243.88,
+  "floodStage": 8.4,
+  "alarmStage": 7.9
+}

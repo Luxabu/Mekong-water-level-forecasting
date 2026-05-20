@@ -1,0 +1,13 @@
+{
+  "station_id": "019802",
+  "station_name": "Kompong_Cham",
+  "country": "KH",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 11.994647,
+  "longitude": 105.46873,
+  "elevation": 17.0,
+  "dist_to_ocean_km": 296.78,
+  "floodStage": 16.2,
+  "alarmStage": 15.2
+}

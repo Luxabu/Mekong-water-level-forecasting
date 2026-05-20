@@ -1,0 +1,11 @@
+{
+  "Station": "Ban_Tha_Kok_Daeng",
+  "Best_Model": "Gradient_Boosting",
+  "Test_RMSE": 0.29394997900130415,
+  "Test_R2": 0.9664048810594557,
+  "Num_Features": 25,
+  "Model_Path": "models\\regression\\best_regressor_Ban_Tha_Kok_Daeng.pkl",
+  "Forecast_Path": "models\\forecasts\\Ban_Tha_Kok_Daeng_forecast.csv",
+  "Alarm_Stage": 12.0,
+  "Flood_Stage": 13.0
+}

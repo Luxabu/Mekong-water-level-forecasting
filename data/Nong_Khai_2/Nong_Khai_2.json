@@ -1,0 +1,13 @@
+{
+  "station_id": "012002",
+  "station_name": "Nong_Khai_2",
+  "country": "VN",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 17.87775,
+  "longitude": 102.71667,
+  "elevation": 157.0,
+  "dist_to_ocean_km": 1013.81,
+  "floodStage": 12.2,
+  "alarmStage": 11.4
+}

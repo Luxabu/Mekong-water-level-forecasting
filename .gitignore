@@ -35,10 +35,6 @@ wheels/
 *~
 .DS_Store
 
-# Data files (large, can be regenerated)
-data/*/train.csv
-data/*/test.csv
-data/**/*.csv
 
 # Model files (can be retrained)
 models/**/*.pkl
@@ -50,10 +46,6 @@ models/**/*.model
 models/scalers/
 models/regression/
 models/forecasts/
-
-# Results (can be regenerated)
-ensemble_results/
-*.json
 
 # Environment
 .env

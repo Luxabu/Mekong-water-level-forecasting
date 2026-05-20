@@ -1,0 +1,11 @@
+{
+  "Station": "My_Thuan",
+  "Best_Model": "Extra_Trees",
+  "Test_RMSE": 0.07836179504303908,
+  "Test_R2": 0.9429661587609761,
+  "Num_Features": 26,
+  "Model_Path": "models\\regression\\best_regressor_My_Thuan.pkl",
+  "Forecast_Path": "models\\forecasts\\My_Thuan_forecast.csv",
+  "Alarm_Stage": 1.6,
+  "Flood_Stage": 1.8
+}

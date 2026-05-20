@@ -1,0 +1,11 @@
+{
+  "Station": "Prek_Kdam",
+  "Best_Model": "Gradient_Boosting",
+  "Test_RMSE": 0.3398836568195558,
+  "Test_R2": 0.934595387053202,
+  "Num_Features": 26,
+  "Model_Path": "models\\regression\\best_regressor_Prek_Kdam.pkl",
+  "Forecast_Path": "models\\forecasts\\Prek_Kdam_forecast.csv",
+  "Alarm_Stage": 9.5,
+  "Flood_Stage": 10.0
+}

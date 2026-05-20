@@ -1,0 +1,11 @@
+{
+  "Station": "Siempang",
+  "Best_Model": "Extra_Trees",
+  "Test_RMSE": 0.2954693543188085,
+  "Test_R2": 0.961877408642545,
+  "Num_Features": 26,
+  "Model_Path": "models\\regression\\best_regressor_Siempang.pkl",
+  "Forecast_Path": "models\\forecasts\\Siempang_forecast.csv",
+  "Alarm_Stage": 11.5,
+  "Flood_Stage": 12.5
+}

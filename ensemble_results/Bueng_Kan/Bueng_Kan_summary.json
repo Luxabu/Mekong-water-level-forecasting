@@ -1,0 +1,11 @@
+{
+  "Station": "Bueng_Kan",
+  "Best_Model": "XGBoost",
+  "Test_RMSE": 0.27974183243809825,
+  "Test_R2": 0.9550837405054569,
+  "Num_Features": 25,
+  "Model_Path": "models\\regression\\best_regressor_Bueng_Kan.pkl",
+  "Forecast_Path": "models\\forecasts\\Bueng_Kan_forecast.csv",
+  "Alarm_Stage": 10.18,
+  "Flood_Stage": 11.18
+}

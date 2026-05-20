@@ -1,0 +1,13 @@
+{
+  "station_id": "020102",
+  "station_name": "Prek_Kdam",
+  "country": "KH",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 11.81117,
+  "longitude": 104.80678,
+  "elevation": 2.0,
+  "dist_to_ocean_km": 310.17,
+  "floodStage": 10.0,
+  "alarmStage": 9.5
+}

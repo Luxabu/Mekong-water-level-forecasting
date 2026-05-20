@@ -1,0 +1,11 @@
+{
+  "Station": "Can_Tho",
+  "Best_Model": "Linear_Regression",
+  "Test_RMSE": 0.08621569733805785,
+  "Test_R2": 0.9285136067896638,
+  "Num_Features": 27,
+  "Model_Path": "models\\regression\\best_regressor_Can_Tho.pkl",
+  "Forecast_Path": "models\\forecasts\\Can_Tho_forecast.csv",
+  "Alarm_Stage": 1.7,
+  "Flood_Stage": 1.9
+}

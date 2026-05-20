@@ -1,0 +1,13 @@
+{
+  "station_id": "012702",
+  "station_name": "Bueng_Kan",
+  "country": "KH",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 18.401388,
+  "longitude": 103.58111,
+  "elevation": 148.0,
+  "dist_to_ocean_km": 1037.0,
+  "floodStage": 11.18,
+  "alarmStage": 10.18
+}

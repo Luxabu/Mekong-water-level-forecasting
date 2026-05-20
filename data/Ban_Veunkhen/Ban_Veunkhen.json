@@ -1,0 +1,13 @@
+{
+  "station_id": "430106",
+  "station_name": "Ban_Veunkhen",
+  "country": "VN",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 14.8192,
+  "longitude": 106.80566,
+  "elevation": 99.0,
+  "dist_to_ocean_km": 596.86,
+  "floodStage": 16.0,
+  "alarmStage": 15.0
+}

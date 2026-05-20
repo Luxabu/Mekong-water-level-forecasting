@@ -1,0 +1,13 @@
+{
+  "station_id": "019806",
+  "station_name": "Neak_Luong",
+  "country": "KH",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 11.263037,
+  "longitude": 105.28012,
+  "elevation": 1.0,
+  "dist_to_ocean_km": 231.18,
+  "floodStage": 8.0,
+  "alarmStage": 7.5
+}

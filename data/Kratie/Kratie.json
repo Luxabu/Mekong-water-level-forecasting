@@ -1,0 +1,13 @@
+{
+  "station_id": "014901",
+  "station_name": "Kratie",
+  "country": "KH",
+  "unit_rainfall": "mm",
+  "unit_water_level": "m",
+  "latitude": 12.48141,
+  "longitude": 106.01762,
+  "elevation": 15.0,
+  "dist_to_ocean_km": 336.81,
+  "floodStage": 23.0,
+  "alarmStage": 22.0
+}
